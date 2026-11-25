@@ -2,7 +2,9 @@ import random
 
 while True:
     user_option = input(
-        "Choose your option between \n 1. Rock\n 2. Paper\n 3. Scissor \n \5"
+
+        "Choose your option between \n 1. Rock\n 2. Paper\n 3. Scissor \n \5 \4"
+
     )
     
     user_input = int(user_option)
