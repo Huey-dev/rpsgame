@@ -1,10 +1,11 @@
 import random
-
+#welcome banner
 print("Welcome to RPS Championship")
-
+#initialize player and computer score
 player_score = 0
 computer_score = 0
 
+#validate player input and repeat option when iput is invalid
 while True:
     user_option = input(
         "Choose your option between \n"
@@ -20,7 +21,7 @@ while True:
 
     print("Invalid! Choose between 1 and 3")
 
-
+#computers choice
 choices_list = ["Rock", "Paper", "Scissors"]
 
 computer_choice = random.choice(choices_list)
